@@ -38,7 +38,7 @@ public class UserController {
 	@ResponseBody
 	public String test(){
 		SfUser user = new SfUser();
-		user.setUserTruename("123");
+		//user.setUserTruename("123");
 		SfUser sfUser = getSfUser();
 		return sfUser.getUserName();
 	}
